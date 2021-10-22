@@ -1,6 +1,14 @@
 xbps-install -Su
 xbps-install libXft-devel libX11-devel harfbuzz-devel libXext-devel libXrender-devel libXinerama-devel vim htop xorg cparser neofetch cava tty-clock ncmpcpp mpc mpd zsh picom terminus-font xwallpaper dmenu firefox acpi
 echo "zsh" >> ~/.bashrc
+# Build st
+git clone https://github.com/siduck76/st.git
+cd st
+sudo make install
+# Build dwm
+git clone https://git.suckless.org/dwm
+cd dwm
+doas make clean install
 # Files:
 # .vim
 # .vimrc
@@ -8,5 +16,6 @@ echo "zsh" >> ~/.bashrc
 # .zshrc
 # .zsh_aliases
 # .Xresources
+# config.h
 # music/
 # pics/wallpapers/
