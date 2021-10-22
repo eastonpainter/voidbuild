@@ -1,0 +1,12 @@
+xbps-install -Su
+xbps-install libXft-devel libX11-devel harfbuzz-devel libXext-devel libXrender-devel libXinerama-devel vim htop xorg cparser neofetch cava tty-clock ncmpcpp mpc mpd zsh picom terminus-font xwallpaper dmenu firefox acpi
+echo "zsh" >> ~/.bashrc
+# Files:
+# .vim
+# .vimrc
+# .xinitrc
+# .zshrc
+# .zsh_aliases
+# .Xresources
+# music/
+# pics/wallpapers/
