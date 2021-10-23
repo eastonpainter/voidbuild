@@ -46,6 +46,23 @@ alias pacqi="doas pacman -Qi"
 alias pacsyu="doas pacman -Syu"  
 alias aur="pikaur"
 
+## Void ##
+alias xi="doas xbps-install"
+alias xis="doas xbps-install -S" # Basic install
+alias xisu="doas xbps-install -Su" # Update
+alias xisn="doas xbps-install -Sn" # Dry-run
+
+alias xq="doas xbps-query"
+alias xql="doas xbps-query -l" # List pkgs
+alias xqrs="doas xbps-query -Rs" # Find remote pkgs
+
+alias xr="doas xbps-remove"
+alias xrr="doas xbps-remove -R" # Additionally, remove dependencies
+alias xo="doas xbps-remove -o" # Removes orphaned pkgs
+alias xo="doas xbps-remove -O" # Removes obsolete pkgs
+
+alias src="xbps-src"
+
 ## Herbstluftwm ##
 alias h="herbstclient"
 alias hr="herbstclient reload"
