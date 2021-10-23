@@ -13,9 +13,19 @@ make clean install
 touch /etc/doas.conf
 echo "permit nopass eve as root" > /etc/doas.conf
 cd ~
+su eve
 zsh
 source ~/.zsh_aliases
 source ~/.zshrc
+mkdir -p pics/wallpapers
+mkdir vids notes music programs projects .scripts
+mv wall.png ~/pics/wallpapers
+mv ~/config.h ~/dwm
+cd ~/dwm
+doas make clean install
+cd ~
+curl -O https://raw.githubusercontent.com/dylanaraps/pfetch/master/pfetch
+mv pfetch ~/.scripts
 # Files:
 # .vim
 # .vimrc
