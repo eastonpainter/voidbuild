@@ -12,6 +12,10 @@ cd dwm
 make clean install
 touch /etc/doas.conf
 echo "permit nopass eve as root" > /etc/doas.conf
+cd ~
+zsh
+source ~/.zsh_aliases
+source ~/.zshrc
 # Files:
 # .vim
 # .vimrc
