@@ -39,5 +39,3 @@ extract () {
 # Change keyboard layout to Colemak
 setxkbmap us -variant colemak
 xset r rate 250 35
-xrdb merge ~/.Xresources && kill -USR1 $(pidof st)
-xwallpaper --zoom ~/pics/wallpapers/wall.png
