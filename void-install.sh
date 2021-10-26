@@ -1,3 +1,19 @@
+!!! Christian !!!
+Once you have installed Void with the USB (be sure to remove it when reboot to boot from the HDD, instead of the USB) you can run:
+`xbps-install -Su && xbps-install git`
+Which will update your repos and then install git allowing you to *clone* this repository, or download a personal copy on your machine.
+With this command:
+`git clone https://github.com/eastonpainter/voidbuild.git`
+It will now place a directory in your current one, so you can just
+`pwd`
+    /home/[user/christian]
+    e.g.: /home/easton
+`ls`
+    voidbuild
+`cd voidbuild`
+And then read void-install.sh
+`cat void-install.sh`
+
 xbps-install -Su
 xbps-install libXft-devel libX11-devel harfbuzz-devel libXext-devel libXrender-devel libXinerama-devel vim htop xorg cparser neofetch cava tty-clock ncmpcpp mpc mpd zsh picom terminus-font xwallpaper dmenu firefox acpi make pkg-config opendoas curl zathura
 cd /home/eve
