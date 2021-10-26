@@ -20,6 +20,7 @@ zsh: modern shell
 dmenu: program launcher [MOD-P by default, I believe]
 firefox: browser, more secure
 opendoas: doas instead of sudo
+xwallpaper: set wall with `xwallpaper --zoom /path/to/file`
 curl: for basic install/misc.
 ** Just always remember to READ THE MANUAL for most software with `man [pkg]` or `[pkg] --help`. **
 And once again, these are my personal configs, so you can always edit them.
