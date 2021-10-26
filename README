@@ -1,3 +1,31 @@
+!!! Christian !!!
+If you have any questions/problems just file an ISSUE in the ISSUES tab, the one text to the CODE tab.
+The void-install.sh script should have the basic commands for setting an environment once the OS is installed. Be sure to replace `eve` with your name.
+Reminder: do not run void-install.sh, it's not ready yet, so just manully type the commands in.
+It will give you a basic build of `dwm` and `st`, both suckless-tools. Be sure to check https://suckless.org/ for documentation, and remember to RTFM.
+Just a reminder that these are my personal dotfiles, so you don't necessarily have to use everything, be sure to know what each command does before executing it. 
+I also have a large collection of aliases that may be helpful, but usually it will be best to make your own.
+I also use `zsh` instead of `bash`, so be careful of that (zsh is a more modern shell than bash). 
+My install will also try to set up `doas`, a much leaner alternative to `sudo` (with a much simpler .config file [permit nopass [name] as root], that's it), so consider trying that out. 
+Just be sure to always replace `sudo` with `doas` when running scripts, but you can always just go back to `sudo`.
+Basic utilities:
+zathura: reads pdfs
+vim: edit text
+htop: process monitor
+tty-clock: just a clock
+cava: music visualizer
+ncmpcpp: music [warning, a little advanced as ncmpcpp is a client that interacts with a daemon, mpd]
+cmus: easier music alternative, should be in repos
+zsh: modern shell
+dmenu: program launcher [MOD-P by default, I believe]
+firefox: browser, more secure
+opendoas: doas instead of sudo
+curl: for basic install/misc.
+** Just always remember to READ THE MANUAL for most software with `man [pkg]` or `[pkg] --help`. **
+And once again, these are my personal configs, so you can always edit them.
+Luke Smith also has some good video tutorials: youtube.com/LukeSmith
+Example dwm video: https://www.youtube.com/watch?v=unqsQJaECv0
+
 My dotfiles for my personal build of Void Linux.
 Creates a basic, usable, yet minimal config.
 
